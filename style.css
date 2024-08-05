@@ -1,0 +1,70 @@
+body {
+    background-color: #0D1A2D;
+    font-family: "Outfit", sans-serif;
+    color: #526787;
+}
+
+.nft-card {
+    background-color: #15273F;
+    width: 100%;
+    max-width: 300px;
+    height: 532px;
+
+    position: absolute;
+    inset: 0px;
+    margin: auto;
+
+    border-radius: 15px;
+    box-shadow: 0px 15px 15px 10px #0c1729a4;
+
+    padding: 20px;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.icon img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    inset: 0px;
+    margin: auto;
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.img:hover .icon img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    inset: 0px;
+    margin: auto;
+    opacity: 1;
+}
+
+.avt img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.right {
+    float: right;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: cyan;
+}
